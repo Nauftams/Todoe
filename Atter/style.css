@@ -1,0 +1,35 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.atter-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.icon-plus {
+  margin-bottom: 3rem;
+  font-size: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+@media (min-width: 992px) {
+  button {
+    margin-top: 0;
+  }
+  .icon-plus {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

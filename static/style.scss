@@ -1,0 +1,74 @@
+// Variables
+$primary: #1877f2;
+$secondary: #5890ff;
+$tersier: #426792;
+$white: #fff;
+$second-white: #f6f7f8;
+
+.jumbotron {
+  background-color: $primary;
+  color: $white;
+  margin-top: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .tombol {
+    border-radius: 40px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $secondary;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary;
+}
+
+.desktop {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.desktop-icon,
+.mobile-icon {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .desktop {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .jumbotron {
+    margin-top: 0%;
+  }
+
+  .desktop-icon,
+  .mobile-icon {
+    display: inline-block;
+    color: $tersier;
+  }
+}

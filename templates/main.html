@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="static/306470.png" />
+
+    <!-- My Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../static/main.css" />
+
+    <title>Todoe</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light my-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../static/306470.png" alt="" width="40" height="40" />
+        </a>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Main -->
+    <div class="container mt-5 my-flexbox">
+      <div class="row justify-content-center">
+        <div class="col-md-6 mb-3">
+          <h1>Hello There</h1>
+          <p>Note : your task will disappear if your refresh or close the browser :')</p>
+        </div>
+        <div class="col-md-6">
+          <section class="d-flex">
+            <input id="userInput" class="form-control me-2" type="search" placeholder="Add Tasks" aria-label="Search" />
+            <button id="enter" onclick="addItem()" class="btn btn-outline-primary" type="submit">Add</button>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="border-bottom border-4 mt-3">Your Tasks <i class="bi bi-list-task"></i></h3>
+        </div>
+        <div class="col">
+          <ul id="todo"></ul>
+        </div>
+      </div>
+    </div>
+    <!-- End of Main -->
+    <script src="../static/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

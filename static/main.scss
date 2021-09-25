@@ -1,0 +1,23 @@
+// Variables
+$primary: #1877f2;
+$secondary: #5890ff;
+$tersier: #426792;
+$white: #fff;
+$second-white: #f6f7f8;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+
+  .my-navbar {
+    background-color: $primary;
+  }
+  .my-flexbox .row .col h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+
+  .done {
+    text-decoration: line-through;
+  }
+}
